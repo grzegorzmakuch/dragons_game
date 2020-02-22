@@ -1,0 +1,25 @@
+1. Dodaj Bohatera ->
+1.a. dodaj surowce ->
+1.a.1. dodaj drewno
+1.a.2. dodaj zloto
+1.a.3. dodaj zelazo
+1.b. nadaj imie
+1.c. dodaj smoka
+
+2. Dodaj smoka ->
+2.a. nadaj imie
+2.b. dodaj punkty ->
+2.b.1. punkty zycia
+2.b.2. punkty ataku
+2.b.3. punkty obrony
+
+3. Wyswietl dane ->
+3.a. bohatera
+3.b. smoka
+
+4. System turowy - ilosc ruchow na ture:
+4.a. dodaj smoka - 1 smok = kamienie - 5; zelzo - 5; zloto - 1;
+4.b. usun smkoka - 1 smok = kamienie + 4; zelazo + 4;
+4.c. wykonaj atak
+4.d. wykonaj obrone
+4.e. uciekaj - punkty zycia smoka maleja do 1, zostaje doswiadczenie, zbroja, bron

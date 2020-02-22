@@ -1,6 +1,7 @@
 package entity;
 
 public class Dragon {
+    private int id;
     private String name;
     private int healthPoints;
     private boolean isAlive;
@@ -9,12 +10,22 @@ public class Dragon {
 
     // TODO: 16/02/2020 Smok bedzie mial tez info na temat kosztow wykonania, ile drewna, kamieni itd.
 
-    public Dragon(String name, int healthPoints, boolean isAlive, int attactkPoints, int defensePoints) {
+
+    public Dragon(int id, String name, int healthPoints, boolean isAlive, int attactkPoints, int defensePoints) {
+        this.id = id;
         this.name = name;
         this.healthPoints = healthPoints;
         this.isAlive = isAlive;
         this.attactkPoints = attactkPoints;
         this.defensePoints = defensePoints;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {

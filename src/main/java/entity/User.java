@@ -67,23 +67,6 @@ public class User {
         this.goldAmount = goldAmount;
     }
 
-    //    koszt smoka = 5 drewno + 5 kamien
-    public void wykonajSmoka(Dragon dragon) {
-        if (getStoneAmount() > 5 && getWoodAmount() > 5) {
-            System.out.println("Stworzono smoka");
-            setStoneAmount(getWoodAmount() - 5);
-            setWoodAmount(getWoodAmount() - 5);
-            dodajSmoka(dragon);
-
-        } else {
-            System.out.println("Za malo surowcow");
-        }
-    }
-
-    private void dodajSmoka(Dragon dragon) {
-        getDragons().add(dragon);
-    }
-
     @Override
     public String toString() {
         return "Gracz : {" +
